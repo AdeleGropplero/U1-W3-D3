@@ -1,0 +1,39 @@
+main {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nuovaTask {
+  text-align: center;
+  margin: 40px;
+}
+
+.nuovaTask label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.nuovaTask input {
+  width: 60%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  box-shadow: rgb(161, 161, 161) 3px 3px 3px;
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+}
+
+#lista {
+  list-style-type: none;
+  text-align: left;
+}
+
+#lista li {
+  margin-bottom: 15px;
+  font-size: 0.9srem;
+}
+
+.completato {
+  text-decoration: line-through;
+}

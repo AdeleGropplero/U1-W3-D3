@@ -11,19 +11,37 @@
       <div>
         <nav>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Le tue liste</li>
+            <li>Impostazioni</li>
+            <li>Condividi</li>
           </ul>
         </nav>
       </div>
-      <h1>La Task List definitiva</h1>
     </header>
     <main>
+      <h1>La Task List Definitiva</h1>
       <div>
-        <form action=""></form>
+        <form>
+          <div class="nuovaTask">
+            <label for="name">Nuova Task</label>
+            <input
+              id="task"
+              type="text"
+              placeholder="inserisci la tua prossima Task"
+              required
+            />
+            <button id="aggiungi" type="submit">Invia</button>
+          </div>
+
+          <div class="container">
+            <ul id="lista"></ul>
+          </div>
+        </form>
       </div>
     </main>
+    <footer>
+      <div></div>
+    </footer>
     <script src="./js/script.js"></script>
   </body>
 </html>
